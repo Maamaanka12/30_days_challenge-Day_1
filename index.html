@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shaafi Hospital — Trusted Care, Modern Medicine</title>
+  <meta name="description" content="Shaafi Hospital delivers compassionate, expert healthcare with modern facilities and experienced doctors." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&family=Inter:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─── HEADER ─── -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="Shaafi Hospital home">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M10 20 L16 20 L18 14 L22 26 L24 20 L30 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-text">Shaafi<span class="logo-accent">Hospital</span></span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#doctors" class="nav-link">Doctors</a>
+        <a href="#medicine" class="nav-link">Medicine</a>
+        <a href="#contact" class="nav-link nav-cta">Contact Us</a>
+      </nav>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="images/hero-bg.jpg" alt="" class="hero-bg-img" aria-hidden="true" />
+      <div class="hero-overlay"></div>
+      <div class="hero-pulse" aria-hidden="true">
+        <svg viewBox="0 0 1200 200" preserveAspectRatio="none">
+          <path d="M0 100 L200 100 L240 40 L280 160 L320 80 L360 120 L400 100 L600 100 L640 50 L680 150 L720 70 L760 130 L800 100 L1000 100 L1040 60 L1080 140 L1120 90 L1160 110 L1200 100" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+        </svg>
+      </div>
+    </div>
+    <div class="container hero-content">
+      <span class="eyebrow mono">Trusted since 2005</span>
+      <h1 class="hero-title">Your health,<br/><span class="text-accent">our priority.</span></h1>
+      <p class="hero-subtitle">Expert physicians, modern diagnostics, and compassionate care — all under one roof at Shaafi Hospital.</p>
+      <div class="hero-actions">
+        <a href="#doctors" class="btn btn-primary">Meet Our Doctors</a>
+        <a href="#contact" class="btn btn-outline">Book Appointment</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">15+</span>
+          <span class="stat-label">Years of Service</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Specialist Doctors</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">100K+</span>
+          <span class="stat-label">Patients Treated</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow mono">About Us</span>
+        <h2 class="section-title">A legacy of <span class="text-accent">healing</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="images/about-hospital.jpg" alt="Shaafi Hospital modern interior" loading="lazy" />
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="about-lead">Shaafi Hospital has been at the forefront of healthcare in the region for over 15 years, combining medical excellence with genuine compassion.</p>
+            <p>Our mission is to make quality healthcare accessible to every family. From routine check-ups to complex surgeries, our multidisciplinary team works together to deliver personalized treatment plans that put patients first.</p>
+            <p>Equipped with state-of-the-art diagnostic labs, modern operation theaters, and a dedicated emergency unit — we ensure every patient receives timely, accurate, and effective care.</p>
+          </div>
+          <div class="about-features">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3>24/7 Emergency</h3>
+            <p>Round-the-clock emergency care with rapid response teams always ready.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 14v-4m0-4h.01"/></svg>
+            </div>
+            <h3>Advanced Diagnostics</h3>
+            <p>Latest imaging and lab technology for accurate, fast diagnosis.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Expert Team</h3>
+            <p>Board-certified specialists across every major medical discipline.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SERVICES ─── -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow mono">Our Services</span>
+        <h2 class="section-title">Comprehensive <span class="text-accent">care</span></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <span class="service-number mono">01</span>
+          <h3>Cardiology</h3>
+          <p>Complete heart care from diagnostics to interventional procedures and post-surgery rehabilitation.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-number mono">02</span>
+          <h3>Neurology</h3>
+          <p>Expert treatment for neurological conditions with advanced EEG and MRI capabilities.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-number mono">03</span>
+          <h3>Orthopedics</h3>
+          <p>Joint replacements, spine surgery, sports injuries, and fracture management.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-number mono">04</span>
+          <h3>Pediatrics</h3>
+          <p>Comprehensive child healthcare from newborn screening through adolescent medicine.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-number mono">05</span>
+          <h3>General Surgery</h3>
+          <p>Minimally invasive and traditional surgical procedures with experienced surgeons.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-number mono">06</span>
+          <h3>Diagnostics Lab</h3>
+          <p>Full-spectrum pathology, radiology, and imaging services with quick turnaround.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── DOCTORS ─── -->
+  <section class="doctors section" id="doctors">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow mono">Medical Team</span>
+        <h2 class="section-title">Meet our <span class="text-accent">doctors</span></h2>
+      </div>
+      <div class="doctors-grid">
+        <article class="doctor-card">
+          <div class="doctor-photo">
+            <img src="images/doctor1.jpg" alt="Dr. Amina Hassan - Cardiologist" loading="lazy" />
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Amina Hassan</h3>
+            <span class="doctor-specialty">Cardiology</span>
+            <p>18 years of experience in interventional cardiology and heart failure management.</p>
+          </div>
+        </article>
+        <article class="doctor-card">
+          <div class="doctor-photo">
+            <img src="images/doctor2.jpg" alt="Dr. Omar Farah - Neurologist" loading="lazy" />
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Omar Farah</h3>
+            <span class="doctor-specialty">Neurology</span>
+            <p>Board-certified neurologist specializing in stroke care and epilepsy treatment.</p>
+          </div>
+        </article>
+        <article class="doctor-card">
+          <div class="doctor-photo">
+            <img src="images/doctor3.jpg" alt="Dr. Fatima Noor - Pediatrician" loading="lazy" />
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Fatima Noor</h3>
+            <span class="doctor-specialty">Pediatrics</span>
+            <p>Compassionate pediatrician with a focus on child development and preventive care.</p>
+          </div>
+        </article>
+        <article class="doctor-card">
+          <div class="doctor-photo">
+            <img src="images/doctor4.jpg" alt="Dr. Yusuf Abdi - Orthopedic Surgeon" loading="lazy" />
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Yusuf Abdi</h3>
+            <span class="doctor-specialty">Orthopedics</span>
+            <p>Specialist in joint replacement surgery and sports injury rehabilitation.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── MEDICINE ─── -->
+  <section class="medicine section" id="medicine">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow mono">Pharmacy</span>
+        <h2 class="section-title">Quality <span class="text-accent">medicine</span></h2>
+      </div>
+      <div class="medicine-grid">
+        <div class="medicine-card">
+          <div class="medicine-image">
+            <img src="images/pharmacy.jpg" alt="Pharmacy medications" loading="lazy" />
+          </div>
+          <h3>General Medicine</h3>
+          <p>A wide range of prescription and over-the-counter medications for everyday health needs.</p>
+          <span class="medicine-tag mono">In Stock</span>
+        </div>
+        <div class="medicine-card">
+          <div class="medicine-image">
+            <img src="images/pharmacy.jpg" alt="Specialty medications" loading="lazy" />
+          </div>
+          <h3>Specialty Drugs</h3>
+          <p>Advanced medications for chronic conditions — cardiology, neurology, and more.</p>
+          <span class="medicine-tag mono">Available</span>
+        </div>
+        <div class="medicine-card">
+          <div class="medicine-image">
+            <img src="images/pharmacy.jpg" alt="Wellness products" loading="lazy" />
+          </div>
+          <h3>Wellness & Supplements</h3>
+          <p>Vitamins, supplements, and wellness products to support a healthy lifestyle.</p>
+          <span class="medicine-tag mono">In Stock</span>
+        </div>
+        <div class="medicine-card">
+          <div class="medicine-image">
+            <img src="images/pharmacy.jpg" alt="Home delivery service" loading="lazy" />
+          </div>
+          <h3>Home Delivery</h3>
+          <p>Get your prescriptions delivered to your doorstep — fast, reliable, and hassle-free.</p>
+          <span class="medicine-tag mono">Available</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CTA / CONTACT ─── -->
+  <section class="cta section" id="contact">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-pulse" aria-hidden="true">
+          <svg viewBox="0 0 600 100" preserveAspectRatio="none">
+            <path d="M0 50 L100 50 L130 20 L160 80 L190 35 L220 65 L250 50 L350 50 L380 25 L410 75 L440 40 L470 60 L500 50 L600 50" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+          </svg>
+        </div>
+        <h2>Ready to prioritize your health?</h2>
+        <p>Schedule a consultation with our specialists today. Your well-being starts with a single step.</p>
+        <div class="cta-actions">
+          <a  class="btn btn-primary btn-lg">Call Now</a>
+          <a href="#top" class="btn btn-outline btn-lg">Back to Top</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo" aria-label="Shaafi Hospital home">
+          <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M10 20 L16 20 L18 14 L22 26 L24 20 L30 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="logo-text">Shaafi<span class="logo-accent">Hospital</span></span>
+        </a>
+        <p>Compassionate healthcare, trusted by families across the region since 2005.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#medicine">Pharmacy</a>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <p>Mogadishu, Somalia</p>
+        <p>+252 61 123 4567</p>
+        <p>info@shaafihospital.so</p>
+      </div>
+      <div class="footer-links">
+        <h4>Hours</h4>
+        <p>Mon – Sat: 8:00 AM – 8:00 PM</p>
+        <p>Emergency: 24/7</p>
+        <p>Pharmacy: 8:00 AM – 10:00 PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; 2026 Shaafi Hospital. All rights reserved by Abdirahman.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
